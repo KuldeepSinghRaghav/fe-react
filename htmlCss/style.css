@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* for id */
+#blue {
+  color: blue;
+}
+/* for tags */
+p {
+  color: red;
+}
+/* for class */
+.neemo {
+  color: rgb(13, 112, 4);
+}
+
+/* div css */
+#main {
+  /* use px and % */
+  width: 20%;
+  height: 50%;
+  background-color: black;
+  /* top - right - bottom - left 
+    do eliment ke bich me space.
+     */
+  margin: 40px 30px 40px 50px;
+  /* padding - ek element ke andr space  */
+  padding: 50px;
+}
+
+#mainB {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
